@@ -25,7 +25,7 @@ While the core logic is manual, this project leverages the following libraries f
 - **NAudio:** Used for advanced audio stream management and event handling.
 
 ## 📥 How to Download (Quick Start)
-1. Navigate to the [Releases](https://github.com/Alaa-z17/music-player-gui/releases) page.
+1. Navigate to the [Releases](https://github.com/Alaa-z17/dotnet-core-music-player-Gui/releases/tag/V1.0.0) page.
 2. Download `MusicPlayer-v1.0.0.zip`.
 3. Extract the contents to a folder.
 4. Double-click `MusicPlayerApp.exe` to start listening!
