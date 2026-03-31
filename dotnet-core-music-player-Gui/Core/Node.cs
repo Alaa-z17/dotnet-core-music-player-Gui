@@ -1,4 +1,4 @@
-﻿namespace MusicPlayerApp.Core
+﻿namespace dotnet_core_music_player_Gui.Core
 {
     public class Node<T>
     {
