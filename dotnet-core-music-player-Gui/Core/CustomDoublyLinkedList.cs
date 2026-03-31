@@ -1,4 +1,7 @@
-﻿namespace dotnet_core_music_player_Gui.Core
+﻿using System;
+using System.Collections.Generic;
+
+namespace dotnet_core_music_player_Gui.Core
 {
     public class CustomDoublyLinkedList<T>
     {
@@ -8,6 +11,7 @@
 
         public Node<T>? First => head;
         public Node<T>? Last => tail;
+
         public CustomDoublyLinkedList()
         {
             head = null;
@@ -15,7 +19,6 @@
             nodeCount = 0;
         }
 
-        // ------------------ Add operations ------------------
         public void AddFront(T value)
         {
             var newNode = new Node<T>(value);
@@ -50,13 +53,11 @@
             nodeCount++;
         }
 
-        // ------------------ Update operation ------------------
         public bool Update(T oldValue, T newValue)
         {
             var current = head;
             while (current != null)
             {
-                // Use EqualityComparer for safe null handling
                 if (EqualityComparer<T>.Default.Equals(current.Data, oldValue))
                 {
                     current.Data = newValue;
@@ -67,7 +68,6 @@
             return false;
         }
 
-        // ------------------ Find operation ------------------
         public bool Find(T value)
         {
             var current = head;
@@ -80,7 +80,6 @@
             return false;
         }
 
-        // ------------------ Delete operations ------------------
         public void DeleteFirst()
         {
             if (head == null)
@@ -148,7 +147,6 @@
             return false;
         }
 
-        // ------------------ Utility operations ------------------
         public void DisplayForward()
         {
             var current = head;

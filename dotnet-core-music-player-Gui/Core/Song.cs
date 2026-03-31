@@ -13,7 +13,6 @@
             FilePath = filePath;
         }
 
-        // Overriding ToString() makes it easy to display the song in UI ListBoxes later
         public override string ToString()
         {
             return $"{Title} - {Artist}";
