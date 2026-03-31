@@ -19,6 +19,17 @@ Unlike standard arrays, this project uses a custom Linked List where:
 - **Core Engineering (The Heart):** The entire playlist engine, including the `CustomDoublyLinkedList`, `Node<T>`, and `PlaylistManager` circular logic, was manually architected and coded to ensure maximum performance and algorithmic correctness.
 - **UI & Integration (The Shell):** To maintain a rapid development pace, AI tools were utilized to assist in generating the WinForms UI layouts, event wireups, and standard boilerplate code, allowing the focus to remain on the complex data structure implementation.
 
+## 📦 External Libraries
+While the core logic is manual, this project leverages the following libraries for audio processing:
+- **NetCoreAudio:** Handles cross-platform audio playback commands.
+- **NAudio:** Used for advanced audio stream management and event handling.
+
+## 📥 How to Download (Quick Start)
+1. Navigate to the [Releases](https://github.com/Alaa-z17/music-player-gui/releases) page.
+2. Download `MusicPlayer-v1.0.0.zip`.
+3. Extract the contents to a folder.
+4. Double-click `MusicPlayerApp.exe` to start listening!
+
 ## 💻 How to Run
 1. Clone the repo: `git clone https://github.com/Alaa-z17/music-player-gui.git`
 2. Restore NuGet packages: `dotnet restore`
