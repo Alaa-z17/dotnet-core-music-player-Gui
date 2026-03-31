@@ -15,6 +15,10 @@ Unlike standard arrays, this project uses a custom Linked List where:
 - The `PlayNext` logic automatically resets the cursor to `Head` if it hits the end.
 - This ensures **O(1)** time complexity for navigation and **O(1)** for adding new tracks.
 
+ ## 🛠 Development Methodology
+- **Core Engineering (The Heart):** The entire playlist engine, including the `CustomDoublyLinkedList`, `Node<T>`, and `PlaylistManager` circular logic, was manually architected and coded to ensure maximum performance and algorithmic correctness.
+- **UI & Integration (The Shell):** To maintain a rapid development pace, AI tools were utilized to assist in generating the WinForms UI layouts, event wireups, and standard boilerplate code, allowing the focus to remain on the complex data structure implementation.
+
 ## 💻 How to Run
 1. Clone the repo: `git clone https://github.com/Alaa-z17/music-player-gui.git`
 2. Restore NuGet packages: `dotnet restore`
