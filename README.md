@@ -2,6 +2,13 @@
 
 A professional-grade desktop music player built with **C#** and **WinForms**, featuring a custom-engineered **Circular Doubly Linked List** for seamless playlist management.
 
+## Video Demonstration
+
+Click the image below to watch the project walk-through and a full demonstration of the system in action!
+
+[![Watch the Video](https://img.youtube.com/vi/MPr3ooje-H4/hqdefault.jpg)](https://www.youtube.com/watch?v=MPr3ooje-H4)
+
+
 ## 🚀 Key Features
 - **Custom Data Structure:** Built from scratch using a `Node<T>` based Doubly Linked List.
 - **Circular Navigation:** Seamlessly loop from the last song to the first and vice versa.
