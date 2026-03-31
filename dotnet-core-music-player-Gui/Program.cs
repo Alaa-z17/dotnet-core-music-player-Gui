@@ -2,9 +2,6 @@ namespace dotnet_core_music_player_Gui
 {
     internal static class Program
     {
-        /// <summary>
-        ///  The main entry point for the application.
-        /// </summary>
         [STAThread]
         static void Main()
         {
